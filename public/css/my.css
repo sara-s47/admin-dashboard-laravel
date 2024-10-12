@@ -1,0 +1,92 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+.main-header {
+    background-color: #3c8dbc;
+    border-bottom: 1px solid #367fa9;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #3c8dbc;
+}
+
+.logo {
+    color: #fff;
+}
+
+.logo-lg, .logo-mini {
+    font-weight: bold;
+}
+
+.main-header .navbar .sidebar-toggle {
+    color: #fff;
+}
+
+.navbar-custom-menu .navbar-nav > li > a {
+    color: #fff;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Sidebar */
+.main-sidebar {
+    background-color: #222d32;
+    color: #b8c7ce;
+}
+
+.sidebar-menu > li > a {
+    color: #b8c7ce;
+}
+
+.sidebar-menu > li > a:hover {
+    background-color: #1e282c;
+    color: #fff;
+}
+
+.user-panel img {
+    border-radius: 50%;
+}
+
+.user-panel p, .user-panel a {
+    color: #fff;
+}
+
+/* Collapsible Sidebar */
+.sidebar-collapsed .main-sidebar {
+    width: 60px;
+    transition: all 0.3s;
+}
+
+.sidebar-collapsed .sidebar-menu > li > a > span {
+    display: none;
+}
+
+.sidebar-collapsed .sidebar-menu > li > a {
+    text-align: center;
+}
+
+.sidebar-collapsed .user-panel {
+    display: none;
+}
+
+.sidebar-expanded .main-sidebar {
+    width: 230px;
+    transition: all 0.3s;
+}
+
+/* Footer */
+.main-footer {
+    background-color: #f4f6f9;
+    padding: 10px;
+    text-align: right;
+    border-top: 1px solid #d2d6de;
+}
+
